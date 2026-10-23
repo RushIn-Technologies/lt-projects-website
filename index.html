@@ -1,0 +1,3616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LT PROJECTS | Premium Villas & Residential Plots in Bengaluru</title>
+
+  <meta
+    name="description"
+    content="LT PROJECTS offers premium villas and residential plots in Bengaluru and surrounding growth corridors. Explore quality properties, prime locations and real estate opportunities."
+  >
+
+  <meta
+    name="keywords"
+    content="LT PROJECTS, premium villas Bengaluru, residential plots Bengaluru, plots for sale Bengaluru, villas for sale Bengaluru, real estate projects Bengaluru"
+  >
+
+  <meta name="author" content="LT PROJECTS">
+
+  <meta
+    name="robots"
+    content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+  >
+
+  <meta name="theme-color" content="#173f3a">
+
+
+  <!-- Open Graph -->
+
+  <meta property="og:type" content="website">
+
+  <meta
+    property="og:title"
+    content="LT PROJECTS | Premium Villas & Residential Plots in Bengaluru"
+  >
+
+  <meta
+    property="og:description"
+    content="Explore premium villas and residential plots by LT PROJECTS across Bengaluru and surrounding growth corridors."
+  >
+
+  <meta
+    property="og:image"
+    content="./assets/images/lt-projects-logo-clean.png"
+  >
+
+  <meta property="og:site_name" content="LT PROJECTS">
+
+
+  <!-- Twitter -->
+
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta
+    name="twitter:title"
+    content="LT PROJECTS | Premium Villas & Residential Plots in Bengaluru"
+  >
+
+  <meta
+    name="twitter:description"
+    content="Premium villas and residential plots in Bengaluru by LT PROJECTS."
+  >
+
+  <meta
+    name="twitter:image"
+    content="./assets/images/lt-projects-logo-clean.png"
+  >
+
+
+  <!-- Favicon -->
+
+  <link
+    rel="shortcut icon"
+    href="./favicon.png"
+    type="image/png"
+  >
+
+
+  <!-- Fonts -->
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+
+  <!-- Existing CSS -->
+
+  <link
+    rel="stylesheet"
+    href="./assets/css/style.css"
+  >
+
+
+  <!-- =========================================================
+       PREMIUM HOMEPAGE STYLES
+       ========================================================= -->
+
+  <style>
+
+    :root {
+
+      --lt-green: #173f3a;
+      --lt-green-light: #245f56;
+      --lt-dark: #102d2a;
+
+      --lt-gold: #c9a35d;
+      --lt-gold-light: #e4ca91;
+
+      --lt-cream: #f7f4ed;
+      --lt-soft: #eef3f0;
+
+      --lt-text: #273733;
+      --lt-muted: #697773;
+
+      --lt-white: #ffffff;
+
+      --lt-border: rgba(23, 63, 58, .12);
+
+      --lt-shadow:
+        0 22px 65px rgba(16, 45, 42, .10);
+
+      --radius: 24px;
+    }
+
+
+    /* =========================================================
+       GLOBAL
+       ========================================================= */
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+
+    body {
+      background: #fbfaf7;
+      color: var(--lt-text);
+    }
+
+
+    .lt-container {
+      width: min(1180px, calc(100% - 40px));
+      margin-inline: auto;
+    }
+
+
+    .lt-eyebrow {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 9px;
+
+      margin-bottom: 13px;
+
+      color: var(--lt-gold);
+
+      font-size: 11px;
+
+      font-weight: 800;
+
+      letter-spacing: 2.2px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-eyebrow::before {
+
+      content: "";
+
+      width: 30px;
+
+      height: 1px;
+
+      background: var(--lt-gold);
+    }
+
+
+    .lt-section-title {
+
+      margin: 0 0 15px;
+
+      color: var(--lt-dark);
+
+      font-family: "Playfair Display", serif;
+
+      font-size: clamp(34px, 4vw, 52px);
+
+      line-height: 1.1;
+
+      letter-spacing: -.6px;
+    }
+
+
+    .lt-section-title em {
+
+      color: var(--lt-green);
+
+      font-style: italic;
+    }
+
+
+    .lt-section-copy {
+
+      max-width: 680px;
+
+      margin: 0;
+
+      color: var(--lt-muted);
+
+      font-size: 15px;
+
+      line-height: 1.85;
+    }
+
+
+    /* =========================================================
+       HERO
+       ========================================================= */
+
+    .lt-hero {
+
+      position: relative;
+
+      min-height: 720px;
+
+      display: flex;
+
+      align-items: center;
+
+      overflow: hidden;
+
+      background: #102d2a;
+    }
+
+
+    .lt-hero-image {
+
+      position: absolute;
+
+      inset: 0;
+
+      width: 100%;
+
+      height: 100%;
+
+      object-fit: cover;
+
+      object-position: center;
+
+      z-index: 0;
+    }
+
+
+    .lt-hero-overlay {
+
+      position: absolute;
+
+      inset: 0;
+
+      z-index: 1;
+
+      background:
+        linear-gradient(
+          90deg,
+          rgba(8, 30, 27, .92) 0%,
+          rgba(12, 49, 44, .76) 40%,
+          rgba(12, 49, 44, .30) 76%,
+          rgba(12, 49, 44, .15) 100%
+        );
+    }
+
+
+    .lt-hero-overlay::after {
+
+      content: "";
+
+      position: absolute;
+
+      inset: 0;
+
+      background:
+        linear-gradient(
+          0deg,
+          rgba(5, 25, 22, .65),
+          transparent 35%
+        );
+    }
+
+
+    .lt-hero-content {
+
+      position: relative;
+
+      z-index: 2;
+
+      /*
+       * Match the same premium content grid used on
+       * the Contact / Service pages.
+       *
+       * At a 1680px desktop width this gives roughly
+       * 180px of left spacing.
+       */
+      width: calc(100% - 60px);
+
+      max-width: 1320px;
+
+      margin-left: auto;
+      margin-right: auto;
+
+      padding: 145px 0 120px;
+    }
+
+
+    .lt-hero-kicker {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 10px;
+
+      margin-bottom: 21px;
+
+      color: #ead49e;
+
+      font-size: 11px;
+
+      font-weight: 800;
+
+      letter-spacing: 2.3px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-hero-kicker ion-icon {
+
+      font-size: 17px;
+    }
+
+
+    .lt-hero h1 {
+
+      max-width: 850px;
+
+      margin: 0 0 23px;
+
+      color: #fff;
+
+      font-family: "Playfair Display", serif;
+
+      font-size: clamp(45px, 6.2vw, 78px);
+
+      line-height: 1.02;
+
+      letter-spacing: -1.7px;
+    }
+
+
+    .lt-hero h1 em {
+
+      color: var(--lt-gold-light);
+
+      font-style: italic;
+    }
+
+
+    .lt-hero-description {
+
+      max-width: 690px;
+
+      margin: 0 0 31px;
+
+      color: rgba(255,255,255,.79);
+
+      font-size: 17px;
+
+      line-height: 1.8;
+    }
+
+
+    .lt-hero-actions {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      flex-wrap: wrap;
+    }
+
+
+    .lt-btn {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      justify-content: center;
+
+      gap: 9px;
+
+      min-height: 50px;
+
+      padding: 0 21px;
+
+      border-radius: 999px;
+
+      font-size: 12px;
+
+      font-weight: 800;
+
+      letter-spacing: .7px;
+
+      text-transform: uppercase;
+
+      transition: .25s ease;
+    }
+
+
+    .lt-btn-gold {
+
+      background: var(--lt-gold);
+
+      color: #fff;
+    }
+
+
+    .lt-btn-gold:hover {
+
+      transform: translateY(-3px);
+
+      box-shadow:
+        0 14px 30px rgba(0,0,0,.20);
+    }
+
+
+    .lt-btn-light {
+
+      border: 1px solid rgba(255,255,255,.35);
+
+      background: rgba(255,255,255,.07);
+
+      color: #fff;
+
+      backdrop-filter: blur(7px);
+    }
+
+
+    .lt-btn-light:hover {
+
+      background: rgba(255,255,255,.14);
+    }
+
+
+    .lt-hero-bottom {
+
+      position: absolute;
+
+      left: 0;
+
+      right: 0;
+
+      bottom: 0;
+
+      z-index: 3;
+
+      padding-bottom: 26px;
+    }
+
+    /* Keep the hero bottom metadata aligned with the main hero text */
+    .lt-hero-bottom .lt-container {
+
+      width: calc(100% - 60px);
+
+      max-width: 1320px;
+
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+
+    .lt-hero-meta {
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      gap: 20px;
+
+      color: rgba(255,255,255,.68);
+
+      font-size: 10px;
+
+      font-weight: 700;
+
+      letter-spacing: 1.4px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-scroll {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 8px;
+    }
+
+
+    .lt-scroll span {
+
+      display: block;
+
+      width: 35px;
+
+      height: 1px;
+
+      background: rgba(255,255,255,.45);
+    }
+
+
+
+
+    /* =========================================================
+       ABOUT
+       ========================================================= */
+
+    .lt-about {
+
+      padding: 115px 0 105px;
+    }
+
+
+    .lt-about-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        minmax(0, .95fr)
+        minmax(0, 1.05fr);
+
+      gap: 75px;
+
+      align-items: center;
+    }
+
+
+    .lt-about-visual {
+
+      position: relative;
+
+      min-height: 555px;
+    }
+
+
+    .lt-about-main-image {
+
+      width: 88%;
+
+      height: 490px;
+
+      object-fit: cover;
+
+      border-radius: 2px;
+
+      box-shadow:
+        0 25px 65px rgba(16,45,42,.16);
+    }
+
+
+    .lt-about-floating-image {
+
+      position: absolute;
+
+      right: 0;
+
+      bottom: 0;
+
+      width: 48%;
+
+      height: 250px;
+
+      object-fit: cover;
+
+      border: 10px solid #fbfaf7;
+
+      box-shadow:
+        0 18px 40px rgba(16,45,42,.16);
+    }
+
+
+    .lt-experience {
+
+      position: absolute;
+
+      left: -18px;
+
+      bottom: 45px;
+
+      z-index: 3;
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      padding: 17px 20px;
+
+      background: var(--lt-green);
+
+      color: #fff;
+
+      box-shadow:
+        0 15px 35px rgba(16,45,42,.22);
+    }
+
+
+    .lt-experience strong {
+
+      font-family: "Playfair Display", serif;
+
+      font-size: 35px;
+
+      line-height: 1;
+    }
+
+
+    .lt-experience strong span {
+
+      color: var(--lt-gold-light);
+    }
+
+
+    .lt-experience small {
+
+      color: rgba(255,255,255,.75);
+
+      font-size: 9px;
+
+      font-weight: 800;
+
+      line-height: 1.5;
+
+      letter-spacing: 1px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-about-content {
+
+      padding-top: 10px;
+    }
+
+
+    .lt-about-content h2 {
+
+      max-width: 600px;
+
+      margin: 0 0 22px;
+
+      color: var(--lt-dark);
+
+      font-family: "Playfair Display", serif;
+
+      font-size: clamp(37px, 4vw, 55px);
+
+      line-height: 1.08;
+    }
+
+
+    .lt-about-content h2 em {
+
+      color: var(--lt-green);
+
+      font-style: italic;
+    }
+
+
+    .lt-about-content p {
+
+      color: var(--lt-muted);
+
+      font-size: 14px;
+
+      line-height: 1.9;
+
+      margin: 0 0 16px;
+    }
+
+
+    .lt-about-content p strong {
+
+      color: var(--lt-dark);
+    }
+
+
+    .lt-feature-list {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(2, 1fr);
+
+      gap: 12px;
+
+      margin: 27px 0 28px;
+
+      padding: 0;
+
+      list-style: none;
+    }
+
+
+    .lt-feature-list li {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 9px;
+
+      color: var(--lt-dark);
+
+      font-size: 12px;
+
+      font-weight: 700;
+    }
+
+
+    .lt-feature-list ion-icon {
+
+      color: var(--lt-gold);
+
+      font-size: 17px;
+    }
+
+
+    .lt-quote {
+
+      margin: 0 0 25px;
+
+      padding-left: 18px;
+
+      border-left: 2px solid var(--lt-gold);
+
+      color: var(--lt-green);
+
+      font-family: "Playfair Display", serif;
+
+      font-size: 19px;
+
+      font-style: italic;
+
+      line-height: 1.5;
+    }
+
+
+    .lt-text-link {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 8px;
+
+      color: var(--lt-green);
+
+      font-size: 11px;
+
+      font-weight: 800;
+
+      letter-spacing: 1px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-text-link ion-icon {
+
+      color: var(--lt-gold);
+
+      transition: .2s ease;
+    }
+
+
+    .lt-text-link:hover ion-icon {
+
+      transform: translateX(4px);
+    }
+
+
+    /* =========================================================
+       WHY CHOOSE
+       ========================================================= */
+
+    .lt-why {
+
+      padding: 105px 0;
+
+      background: var(--lt-cream);
+    }
+
+
+    .lt-why-header {
+
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap: 70px;
+
+      align-items: end;
+
+      margin-bottom: 45px;
+    }
+
+
+    .lt-why-header p {
+
+      margin: 0;
+
+      color: var(--lt-muted);
+
+      font-size: 14px;
+
+      line-height: 1.85;
+    }
+
+
+    .lt-why-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 17px;
+    }
+
+
+    .lt-why-card {
+
+      padding: 30px 27px;
+
+      background: #fff;
+
+      border: 1px solid var(--lt-border);
+
+      min-height: 215px;
+
+      transition: .28s ease;
+    }
+
+
+    .lt-why-card:hover {
+
+      transform: translateY(-5px);
+
+      box-shadow:
+        0 20px 45px rgba(16,45,42,.09);
+    }
+
+
+    .lt-why-icon {
+
+      display: grid;
+
+      place-items: center;
+
+      width: 46px;
+
+      height: 46px;
+
+      margin-bottom: 20px;
+
+      border-radius: 50%;
+
+      background: var(--lt-soft);
+
+      color: var(--lt-green);
+
+      font-size: 21px;
+    }
+
+
+    .lt-why-card h3 {
+
+      margin: 0 0 9px;
+
+      color: var(--lt-dark);
+
+      font-family: "Playfair Display", serif;
+
+      font-size: 20px;
+    }
+
+
+    .lt-why-card p {
+
+      margin: 0;
+
+      color: var(--lt-muted);
+
+      font-size: 12px;
+
+      line-height: 1.75;
+    }
+
+
+    /* =========================================================
+       SERVICES
+       ========================================================= */
+
+    .lt-services {
+
+      padding: 110px 0;
+    }
+
+
+    .lt-services-heading {
+
+      display: grid;
+
+      grid-template-columns:
+        1fr .7fr;
+
+      gap: 70px;
+
+      align-items: end;
+
+      margin-bottom: 45px;
+    }
+
+
+    .lt-services-heading > p {
+
+      margin: 0;
+
+      color: var(--lt-muted);
+
+      font-size: 14px;
+
+      line-height: 1.8;
+    }
+
+
+    .lt-service-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 18px;
+    }
+
+
+    .lt-service-card {
+
+      position: relative;
+
+      min-height: 245px;
+
+      padding: 32px 29px;
+
+      overflow: hidden;
+
+      border: 1px solid var(--lt-border);
+
+      background: #fff;
+
+      transition: .28s ease;
+    }
+
+
+    .lt-service-card::after {
+
+      content: "";
+
+      position: absolute;
+
+      right: -65px;
+
+      bottom: -70px;
+
+      width: 170px;
+
+      height: 170px;
+
+      border: 1px solid rgba(23,63,58,.06);
+
+      border-radius: 50%;
+    }
+
+
+    .lt-service-card:hover {
+
+      background: var(--lt-green);
+
+      transform: translateY(-5px);
+
+      box-shadow:
+        0 20px 45px rgba(16,45,42,.13);
+    }
+
+
+    .lt-service-card ion-icon {
+
+      color: var(--lt-gold);
+
+      font-size: 31px;
+
+      margin-bottom: 22px;
+    }
+
+
+    .lt-service-card h3 {
+
+      margin: 0 0 9px;
+
+      color: var(--lt-dark);
+
+      font-family: "Playfair Display", serif;
+
+      font-size: 22px;
+    }
+
+
+    .lt-service-card p {
+
+      max-width: 290px;
+
+      margin: 0;
+
+      color: var(--lt-muted);
+
+      font-size: 12px;
+
+      line-height: 1.75;
+    }
+
+
+    .lt-service-card > a {
+
+      position: absolute;
+
+      right: 25px;
+
+      bottom: 24px;
+
+      color: var(--lt-green);
+
+      font-size: 18px;
+    }
+
+
+    .lt-service-card:hover h3,
+    .lt-service-card:hover p,
+    .lt-service-card:hover > a {
+
+      color: #fff;
+    }
+
+
+    .lt-section-action {
+      display: flex;
+      justify-content: center;
+      margin-top: 38px;
+    }
+
+    .lt-section-action .lt-btn {
+      text-align: center;
+    }
+
+    /* =========================================================
+       PROJECTS
+       ========================================================= */
+
+    .lt-projects {
+
+      padding: 110px 0;
+
+      background: var(--lt-soft);
+    }
+
+
+    .lt-project-heading {
+
+      display: flex;
+
+      align-items: end;
+
+      justify-content: space-between;
+
+      gap: 40px;
+
+      margin-bottom: 40px;
+    }
+
+
+    .lt-project-heading-copy {
+
+      max-width: 750px;
+    }
+
+
+    .lt-project-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 20px;
+    }
+
+
+    .lt-project-card {
+
+      overflow: hidden;
+
+      background: #fff;
+
+      border: 1px solid var(--lt-border);
+
+      box-shadow:
+        0 12px 35px rgba(16,45,42,.06);
+
+      transition: .3s ease;
+    }
+
+
+    .lt-project-card:hover {
+
+      transform: translateY(-6px);
+
+      box-shadow:
+        0 22px 50px rgba(16,45,42,.12);
+    }
+
+
+    .lt-project-image {
+
+      position: relative;
+
+      height: 265px;
+
+      overflow: hidden;
+    }
+
+
+    .lt-project-image img {
+
+      width: 100%;
+
+      height: 100%;
+
+      object-fit: cover;
+
+      display: block;
+
+      transition: transform .55s ease;
+    }
+
+
+    .lt-project-card:hover
+    .lt-project-image img {
+
+      transform: scale(1.045);
+    }
+
+
+    .lt-project-status {
+
+      position: absolute;
+
+      top: 15px;
+
+      left: 15px;
+
+      padding: 7px 10px;
+
+      background: var(--lt-gold);
+
+      color: #fff;
+
+      font-size: 9px;
+
+      font-weight: 800;
+
+      letter-spacing: 1px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-project-content {
+
+      padding: 24px;
+    }
+
+
+    .lt-project-location {
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 6px;
+
+      margin: 0 0 8px;
+
+      color: var(--lt-gold);
+
+      font-size: 10px;
+
+      font-weight: 800;
+
+      letter-spacing: .8px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-project-location ion-icon {
+
+      font-size: 14px;
+    }
+
+
+    .lt-project-content h3 {
+
+      margin: 0 0 7px;
+
+      color: var(--lt-dark);
+
+      font-family: "Playfair Display", serif;
+
+      font-size: 23px;
+    }
+
+
+    .lt-project-type {
+
+      margin: 0 0 12px;
+
+      color: var(--lt-green);
+
+      font-size: 11px;
+
+      font-weight: 700;
+    }
+
+
+    .lt-project-description {
+
+      margin: 0 0 18px;
+
+      color: var(--lt-muted);
+
+      font-size: 12px;
+
+      line-height: 1.75;
+    }
+
+
+    .lt-project-link {
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 7px;
+
+      color: var(--lt-green);
+
+      font-size: 10px;
+
+      font-weight: 800;
+
+      letter-spacing: 1px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-project-link ion-icon {
+
+      color: var(--lt-gold);
+
+      transition: .2s ease;
+    }
+
+
+    .lt-project-link:hover ion-icon {
+
+      transform: translateX(4px);
+    }
+
+
+    .lt-project-bottom {
+
+      margin-top: 35px;
+
+      text-align: center;
+    }
+
+
+    /* =========================================================
+       OFFICE
+       ========================================================= */
+
+    .lt-office {
+
+      padding: 110px 0;
+    }
+
+
+    .lt-office-heading {
+
+      display: grid;
+
+      grid-template-columns:
+        1fr .8fr;
+
+      gap: 70px;
+
+      align-items: end;
+
+      margin-bottom: 38px;
+    }
+
+
+    .lt-office-heading > p {
+
+      margin: 0;
+
+      color: var(--lt-muted);
+
+      font-size: 14px;
+
+      line-height: 1.85;
+    }
+
+
+    .lt-office-map {
+
+      overflow: hidden;
+
+      border: 1px solid var(--lt-border);
+
+      box-shadow:
+        0 20px 55px rgba(16,45,42,.08);
+    }
+
+
+    .lt-office-map iframe {
+
+      display: block;
+
+      width: 100%;
+
+      height: 420px;
+
+      border: 0;
+    }
+
+
+    .lt-office-info {
+
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      gap: 25px;
+
+      padding: 23px 25px;
+
+      background: var(--lt-green);
+
+      color: #fff;
+    }
+
+
+    .lt-office-address {
+
+      display: flex;
+
+      align-items: flex-start;
+
+      gap: 13px;
+    }
+
+
+    .lt-office-address ion-icon {
+
+      margin-top: 3px;
+
+      color: var(--lt-gold-light);
+
+      font-size: 22px;
+    }
+
+
+    .lt-office-address strong {
+
+      display: block;
+
+      margin-bottom: 4px;
+
+      font-family: "Playfair Display", serif;
+
+      font-size: 18px;
+    }
+
+
+    .lt-office-address p {
+
+      margin: 0;
+
+      color: rgba(255,255,255,.72);
+
+      font-size: 11px;
+
+      line-height: 1.6;
+    }
+
+
+    /* =========================================================
+       CONTACT
+       ========================================================= */
+
+    .lt-contact {
+
+      padding: 105px 0;
+
+      background:
+        linear-gradient(
+          135deg,
+          #102d2a,
+          #1d5a50
+        );
+    }
+
+
+    .lt-contact-grid {
+
+      display: grid;
+
+      grid-template-columns:
+        .8fr 1.2fr;
+
+      gap: 75px;
+
+      align-items: center;
+    }
+
+
+    .lt-contact h2 {
+
+      margin: 0 0 18px;
+
+      color: #fff;
+
+      font-family: "Playfair Display", serif;
+
+      font-size: clamp(37px, 4vw, 55px);
+
+      line-height: 1.08;
+    }
+
+
+    .lt-contact h2 em {
+
+      color: var(--lt-gold-light);
+
+      font-style: italic;
+    }
+
+
+    .lt-contact-intro {
+
+      max-width: 500px;
+
+      margin: 0 0 25px;
+
+      color: rgba(255,255,255,.70);
+
+      font-size: 14px;
+
+      line-height: 1.8;
+    }
+
+
+    .lt-contact-address {
+
+      display: flex;
+
+      gap: 12px;
+
+      color: rgba(255,255,255,.78);
+
+      font-size: 12px;
+
+      line-height: 1.7;
+    }
+
+
+    .lt-contact-address ion-icon {
+
+      flex: 0 0 auto;
+
+      margin-top: 3px;
+
+      color: var(--lt-gold-light);
+
+      font-size: 20px;
+    }
+
+
+    .lt-contact-form {
+
+      display: grid;
+
+      grid-template-columns:
+        1fr 1fr;
+
+      gap: 15px;
+
+      padding: 30px;
+
+      background: #fff;
+
+      box-shadow:
+        0 25px 60px rgba(0,0,0,.18);
+    }
+
+
+    .lt-form-group {
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 7px;
+    }
+
+
+    .lt-form-group.full {
+
+      grid-column: 1 / -1;
+    }
+
+
+    .lt-form-group label {
+
+      color: var(--lt-dark);
+
+      font-size: 10px;
+
+      font-weight: 800;
+
+      letter-spacing: .8px;
+
+      text-transform: uppercase;
+    }
+
+
+    .lt-form-group input,
+    .lt-form-group select,
+    .lt-form-group textarea {
+
+      width: 100%;
+
+      border: 1px solid var(--lt-border);
+
+      background: #fbfaf7;
+
+      padding: 13px 14px;
+
+      color: var(--lt-text);
+
+      font-family: inherit;
+
+      font-size: 12px;
+
+      outline: none;
+
+      transition: .2s ease;
+    }
+
+
+    .lt-form-group textarea {
+
+      min-height: 110px;
+
+      resize: vertical;
+    }
+
+
+    .lt-form-group input:focus,
+    .lt-form-group select:focus,
+    .lt-form-group textarea:focus {
+
+      border-color: var(--lt-green);
+
+      background: #fff;
+    }
+
+
+    .lt-form-submit {
+
+      grid-column: 1 / -1;
+
+      border: 0;
+
+      cursor: pointer;
+    }
+
+
+    .lt-form-consent {
+
+      grid-column: 1 / -1;
+
+      margin: -3px 0 0;
+
+      color: var(--lt-muted);
+
+      font-size: 9px;
+
+      line-height: 1.6;
+    }
+
+
+    .lt-form-consent a {
+
+      color: var(--lt-green);
+
+      font-weight: 700;
+    }
+
+
+
+
+    /* =========================================================
+       CHAIRMAN & FOUNDER
+       ========================================================= */
+
+    .lt-founder {
+      padding: 105px 0;
+      background: #fff;
+    }
+
+    .lt-founder-grid {
+      display: grid;
+      grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+      gap: 75px;
+      align-items: center;
+    }
+
+    .lt-founder-portrait {
+      position: relative;
+      max-width: 490px;
+      margin-inline: auto;
+      padding: 0 18px 18px 0;
+    }
+
+    .lt-founder-portrait::before {
+      content: "";
+      position: absolute;
+      top: 18px;
+      right: 0;
+      bottom: 0;
+      left: 18px;
+      border: 1px solid var(--lt-gold);
+      pointer-events: none;
+    }
+
+    .lt-founder-portrait img {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: 540px;
+      object-fit: cover;
+      object-position: center top;
+      background: var(--lt-soft);
+      box-shadow: 0 24px 60px rgba(16, 45, 42, .14);
+    }
+
+    .lt-founder-caption {
+      position: absolute;
+      right: 0;
+      bottom: 38px;
+      z-index: 1;
+      max-width: calc(100% - 35px);
+      padding: 19px 25px;
+      background: var(--lt-green);
+      color: #fff;
+      box-shadow: 0 14px 35px rgba(16, 45, 42, .2);
+    }
+
+    .lt-founder-caption strong {
+      display: block;
+      font-family: "Playfair Display", serif;
+      font-size: 20px;
+      line-height: 1.3;
+    }
+
+    .lt-founder-caption span {
+      display: block;
+      margin-top: 5px;
+      color: var(--lt-gold-light);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: 1.6px;
+      text-transform: uppercase;
+    }
+
+    .lt-founder-content h2 {
+      margin: 0 0 22px;
+      color: var(--lt-dark);
+      font-family: "Playfair Display", serif;
+      font-size: clamp(36px, 4vw, 53px);
+      line-height: 1.1;
+    }
+
+    .lt-founder-content h2 em {
+      color: var(--lt-green);
+      font-style: italic;
+    }
+
+    .lt-founder-content p {
+      margin: 0 0 17px;
+      color: var(--lt-muted);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+
+    .lt-founder-content p strong {
+      color: var(--lt-dark);
+    }
+
+    .lt-founder-values {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 9px;
+      margin: 25px 0 28px;
+    }
+
+    .lt-founder-values span {
+      padding: 9px 12px;
+      border: 1px solid var(--lt-border);
+      color: var(--lt-green);
+      font-size: 10px;
+      font-weight: 800;
+      letter-spacing: .6px;
+      text-transform: uppercase;
+    }
+
+
+    /* =========================================================
+       WHATSAPP
+       ========================================================= */
+
+    .lt-whatsapp {
+
+      position: fixed;
+
+      right: 22px;
+
+      bottom: 22px;
+
+      z-index: 100;
+
+      display: inline-flex;
+
+      align-items: center;
+
+      gap: 9px;
+
+      padding: 13px 17px;
+
+      border-radius: 999px;
+
+      background: #1b8c58;
+
+      color: #fff;
+
+      box-shadow:
+        0 12px 30px rgba(0,0,0,.18);
+
+      font-size: 11px;
+
+      font-weight: 800;
+
+      letter-spacing: .5px;
+    }
+
+
+    .lt-whatsapp ion-icon {
+
+      font-size: 20px;
+    }
+
+
+    /* =========================================================
+       RESPONSIVE
+       ========================================================= */
+
+    @media (max-width: 1050px) {
+
+      .lt-about-grid {
+
+        gap: 45px;
+      }
+
+
+      .lt-why-grid,
+      .lt-service-grid {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+
+      .lt-project-grid {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+    }
+
+
+    @media (max-width: 800px) {
+
+      .lt-hero {
+
+        min-height: 650px;
+      }
+
+
+      .lt-hero-content {
+
+        width: calc(100% - 50px);
+
+        max-width: none;
+
+        padding-top: 125px;
+      }
+
+      .lt-hero-bottom .lt-container {
+
+        width: calc(100% - 50px);
+
+        max-width: none;
+      }
+
+
+      .lt-stats {
+
+        grid-template-columns:
+          repeat(2, 1fr);
+      }
+
+
+      .lt-stat:nth-child(2) {
+
+        border-right: 0;
+      }
+
+
+      .lt-stat:nth-child(-n+2) {
+
+        border-bottom:
+          1px solid var(--lt-border);
+      }
+
+
+      .lt-about-grid,
+      .lt-contact-grid,
+      .lt-founder-grid {
+
+        grid-template-columns: 1fr;
+      }
+
+      .lt-founder-grid {
+        gap: 48px;
+      }
+
+      .lt-founder-content {
+        order: -1;
+      }
+
+      .lt-founder-portrait {
+        width: min(100%, 490px);
+      }
+
+
+      .lt-about-visual {
+
+        min-height: 490px;
+      }
+
+
+      .lt-why-header,
+      .lt-services-heading,
+      .lt-office-heading {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+      }
+
+
+      .lt-project-heading {
+
+        display: block;
+      }
+
+
+      .lt-project-heading > a {
+
+        margin-top: 20px;
+      }
+
+    }
+
+
+    @media (max-width: 600px) {
+
+      .lt-container {
+
+        width:
+          min(100% - 28px, 1180px);
+      }
+
+      .lt-hero-content {
+
+        width: calc(100% - 28px);
+
+        max-width: none;
+
+        padding-top: 105px;
+      }
+
+      .lt-hero-bottom .lt-container {
+
+        width: calc(100% - 28px);
+
+        max-width: none;
+      }
+
+
+      .lt-hero {
+
+        min-height: 650px;
+      }
+
+
+      .lt-hero h1 {
+
+        font-size: 45px;
+      }
+
+
+      .lt-hero-description {
+
+        font-size: 14px;
+      }
+
+
+      .lt-hero-actions {
+
+        flex-direction: column;
+
+        align-items: stretch;
+      }
+
+
+      .lt-btn {
+
+        width: 100%;
+      }
+
+
+      .lt-stats-wrap {
+
+        margin-top: -35px;
+      }
+
+
+      .lt-stat {
+
+        padding: 22px 10px;
+      }
+
+
+      .lt-stat strong {
+
+        font-size: 27px;
+      }
+
+
+      .lt-stat span {
+
+        font-size: 8px;
+      }
+
+
+      .lt-about,
+      .lt-founder,
+      .lt-why,
+      .lt-services,
+      .lt-projects,
+      .lt-office,
+      .lt-contact {
+
+        padding: 75px 0;
+      }
+
+
+      .lt-about-visual {
+
+        min-height: 410px;
+      }
+
+      .lt-founder-portrait img {
+        height: 430px;
+      }
+
+      .lt-founder-content {
+        padding: 0 24px;
+      }
+
+      .lt-founder-caption {
+        bottom: 30px;
+        padding: 15px 18px;
+      }
+
+      .lt-founder-caption strong {
+        font-size: 17px;
+      }
+
+      .lt-founder-values {
+        gap: 7px;
+      }
+
+
+      .lt-about-main-image {
+
+        height: 365px;
+
+        width: 88%;
+      }
+
+
+      .lt-about-floating-image {
+
+        height: 190px;
+
+        width: 48%;
+      }
+
+
+      .lt-experience {
+
+        left: 0;
+
+        bottom: 30px;
+      }
+
+
+      .lt-feature-list {
+
+        grid-template-columns: 1fr;
+      }
+
+
+      .lt-why-grid,
+      .lt-service-grid,
+      .lt-project-grid {
+
+        grid-template-columns: 1fr;
+      }
+
+
+      .lt-contact-form {
+
+        grid-template-columns: 1fr;
+
+        padding: 21px;
+      }
+
+
+      .lt-form-group.full,
+      .lt-form-submit,
+      .lt-form-consent {
+
+        grid-column: auto;
+      }
+
+
+      .lt-office-info {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+      }
+
+
+      .lt-office-map iframe {
+
+        height: 330px;
+      }
+
+
+      .lt-whatsapp {
+
+        right: 14px;
+
+        bottom: 14px;
+
+        padding: 12px 15px;
+      }
+
+    }
+
+
+    @media (prefers-reduced-motion: reduce) {
+
+      html {
+
+        scroll-behavior: auto;
+      }
+
+
+      * {
+
+        transition: none !important;
+      }
+
+    }
+
+  </style>
+
+
+  <!-- =========================================================
+       STRUCTURED DATA
+       ========================================================= -->
+
+  <script type="application/ld+json">
+
+  {
+    "@context": "https://schema.org",
+
+    "@type": "RealEstateAgent",
+
+    "name": "LT PROJECTS",
+
+    "description":
+      "LT PROJECTS offers premium villas and residential plots in Bengaluru and surrounding locations.",
+
+    "image":
+      "./assets/images/lt-projects-logo-clean.png",
+
+    "address": {
+
+      "@type": "PostalAddress",
+
+      "streetAddress":
+        " No. 8 & 9, Vasudhara Plaza,4th Floor, Kudlu Main Road,Kudlu",
+
+      "addressLocality":
+        "Bengaluru",
+
+      "addressRegion":
+        "Karnataka",
+
+      "postalCode":
+        "560068",
+
+      "addressCountry":
+        "IN"
+    }
+
+  }
+
+  </script>
+
+</head>
+
+
+<body
+  data-whatsapp-number="918904191522">
+
+
+  <!-- =========================================================
+       HEADER
+       ========================================================= -->
+
+  <header
+    class="header"
+    data-header>
+
+    <div class="header-bottom">
+
+      <div class="container nav-shell">
+
+
+        <a
+          href="index.html"
+          class="logo"
+          aria-label="LT PROJECTS Home">
+
+          <img
+            src="./assets/images/lt-projects-logo-clean.png"
+            alt="LT PROJECTS logo">
+
+        </a>
+
+
+        <nav
+          class="navbar"
+          data-navbar
+          aria-label="Main navigation">
+
+          <div class="nav-mobile-head">
+
+            <img
+              src="./assets/images/lt-projects-logo-clean.png"
+              alt="LT PROJECTS logo">
+
+            <button
+              data-nav-close-btn
+              aria-label="Close menu"
+              type="button">
+
+              <ion-icon
+                name="close-outline">
+              </ion-icon>
+
+            </button>
+
+          </div>
+
+
+          <ul class="navbar-list">
+
+            <li>
+              <a
+                href="#home"
+                class="navbar-link"
+                data-nav-link>
+
+                Home
+
+              </a>
+            </li>
+
+
+            <li>
+              <a
+                href="about.html"
+                class="navbar-link">
+
+                About
+
+              </a>
+            </li>
+
+
+            <li>
+              <a
+                href="property.html"
+                class="navbar-link">
+
+                Projects
+
+              </a>
+            </li>
+
+
+            <li>
+              <a
+                href="service.html"
+                class="navbar-link">
+
+                Services
+
+              </a>
+            </li>
+
+
+            <li>
+              <a
+                href="why-choose.html"
+                class="navbar-link">
+
+                Why Us
+
+              </a>
+            </li>
+
+
+            <li>
+              <a
+                href="contact.html"
+                class="navbar-link">
+
+                Contact
+
+              </a>
+            </li>
+
+          </ul>
+
+        </nav>
+
+
+        <a
+          href="contact.html"
+          class="btn btn-nav">
+
+          Book a Site Visit
+
+          <ion-icon
+            name="arrow-forward-outline">
+          </ion-icon>
+
+        </a>
+
+
+        <button
+          class="menu-btn"
+          data-nav-open-btn
+          aria-label="Open menu"
+          type="button">
+
+          <ion-icon
+            name="menu-outline">
+          </ion-icon>
+
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <div
+      class="overlay"
+      data-overlay>
+    </div>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- =======================================================
+         HERO
+         ======================================================= -->
+
+    <section
+      class="lt-hero"
+      id="home">
+
+
+      <img
+        class="lt-hero-image"
+        src="./assets/images/lt-projects-heroimg.png"
+        alt="Premium luxury villa exterior in Bengaluru">
+
+
+      <div class="lt-hero-overlay"></div>
+
+
+      <div class="container lt-hero-content">
+
+
+        <p class="lt-hero-kicker">
+
+          <ion-icon
+            name="diamond-outline">
+          </ion-icon>
+
+          Where Luxury Meets Smart Investment
+
+        </p>
+
+
+        <h1>
+
+          Premium Villas &
+
+          <em>Residential Plots</em>
+
+          in Bengaluru
+
+        </h1>
+
+
+        <p class="lt-hero-description">
+
+          Discover thoughtfully selected villas and
+          residential plots across Bengaluru and
+          surrounding growth corridors — created
+          for elevated living, location advantage
+          and long-term value.
+
+        </p>
+
+
+        <div class="lt-hero-actions">
+
+
+          <a
+            class="lt-btn lt-btn-gold"
+            href="property.html">
+
+            Explore Projects
+
+            <ion-icon
+              name="arrow-forward-outline">
+            </ion-icon>
+
+          </a>
+
+
+          <a
+            class="lt-btn lt-btn-light"
+            href="contact.html">
+
+            Book a Site Visit
+
+            <ion-icon
+              name="calendar-outline">
+            </ion-icon>
+
+          </a>
+
+
+        </div>
+
+      </div>
+
+
+      <div class="lt-hero-bottom">
+
+        <div class="lt-container">
+
+          <div class="lt-hero-meta">
+
+            <span>
+              LT PROJECTS · BENGALURU
+            </span>
+
+
+            <span class="lt-scroll">
+
+              <span></span>
+
+              Scroll to discover
+
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         ABOUT
+         ======================================================= -->
+
+    <section
+      class="lt-about"
+      id="about">
+
+
+      <div class="lt-container">
+
+
+        <div class="lt-about-grid">
+
+
+          <div class="lt-about-visual">
+
+
+            <img
+              class="lt-about-main-image"
+              src="./assets/images/about-banner-1.png"
+              alt="Elegant premium villa interior in Bengaluru"
+              loading="lazy">
+
+
+            <img
+              class="lt-about-floating-image"
+              src="./assets/images/about-banner-2.jpg"
+              alt="Luxury residential home interior detail"
+              loading="lazy">
+
+
+            <div class="lt-experience">
+
+              <strong>
+                16<span>+</span>
+              </strong>
+
+              <small>
+                Years of<br>
+                Excellence
+              </small>
+
+            </div>
+
+
+          </div>
+
+
+          <div class="lt-about-content">
+
+
+            <p class="lt-eyebrow">
+              About LT PROJECTS
+            </p>
+
+
+            <h2>
+
+              Building Luxury.
+
+              <em>Creating Trust.</em>
+
+            </h2>
+
+
+            <p>
+
+              At <strong>LT PROJECTS</strong>,
+              we specialize in premium villas
+              and residential plots across
+              Bengaluru and its fast-growing
+              surrounding locations.
+
+            </p>
+
+
+            <p>
+
+              Every project is carefully selected
+              with attention to quality, location
+              advantages and long-term value.
+              From your first site visit to
+              registration, our team focuses on
+              making the property journey clear
+              and comfortable.
+
+            </p>
+
+
+            <ul class="lt-feature-list">
+
+
+              <li>
+
+                <ion-icon
+                  name="location-outline">
+                </ion-icon>
+
+                Prime Locations
+
+              </li>
+
+
+              <li>
+
+                <ion-icon
+                  name="business-outline">
+                </ion-icon>
+
+                Villas & Plots
+
+              </li>
+
+
+              <li>
+
+                <ion-icon
+                  name="shield-checkmark-outline">
+                </ion-icon>
+
+                Clear Documentation
+
+              </li>
+
+
+              <li>
+
+                <ion-icon
+                  name="trending-up-outline">
+                </ion-icon>
+
+                Investment Potential
+
+              </li>
+
+
+            </ul>
+
+
+            <blockquote class="lt-quote">
+
+              “Luxury Homes. Smart Investments.
+              Trusted Relationships.”
+
+            </blockquote>
+
+
+            <a
+              href="about.html"
+              class="lt-text-link">
+
+              Discover LT PROJECTS
+
+              <ion-icon
+                name="arrow-forward-outline">
+              </ion-icon>
+
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+
+    <!-- =======================================================
+         CHAIRMAN & FOUNDER
+         ======================================================= -->
+
+    <section class="lt-founder" id="chairman-founder" aria-labelledby="lt-founder-title">
+      <div class="lt-container">
+        <div class="lt-founder-grid">
+          <div class="lt-founder-portrait">
+            <img
+              src="./assets/images/challa-narasimha-reddy.jpg"
+              alt="Challa Narasimha Reddy, Chairman and Founder of LTProjects"
+              loading="lazy"
+              width="900"
+              height="1100">
+            <div class="lt-founder-caption">
+              <strong>Challa Narasimha Reddy</strong>
+              <span>Chairman &amp; Founder · LTProjects</span>
+            </div>
+          </div>
+
+          <div class="lt-founder-content">
+            <p class="lt-eyebrow">Leadership</p>
+            <h2 id="lt-founder-title">Leadership with <em>Experience &amp; Vision.</em></h2>
+
+            <p>
+              With over <strong>16 years of experience</strong> in the real estate industry,
+              Mr. Challa Narasimha Reddy brings extensive expertise in
+              <strong>land acquisition, real estate development and business development.</strong>
+            </p>
+
+            <p>
+              As the founder and Chairman of LT Projects, he has played a key role in
+              establishing the company's presence across Bengaluru, with experience
+              spanning <strong>plotted developments and villas.</strong>
+            </p>
+
+            <p>
+              His vision is centred on <strong>quality, transparency, innovation and
+              long-term value creation</strong>, with a commitment to developing projects
+              that create lasting value for customers and communities.
+            </p>
+
+            <div class="lt-founder-values" aria-label="Leadership values">
+              <span>Quality</span>
+              <span>Transparency</span>
+              <span>Innovation</span>
+              <span>Long-term Value</span>
+            </div>
+
+            <a href="about.html" class="lt-text-link">
+              Discover Our Story
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         WHY CHOOSE
+         ======================================================= -->
+
+    <section class="lt-why" id="why-choose" aria-labelledby="lt-why-title">
+      <div class="lt-container">
+        <div class="lt-why-header">
+          <div>
+            <p class="lt-eyebrow">Why Choose Us</p>
+            <h2 class="lt-section-title" id="lt-why-title">
+              Why Choose <em>LT PROJECTS?</em>
+            </h2>
+          </div>
+          <p>
+            Built around your confidence, LT PROJECTS brings together carefully selected
+            villa and plot projects, prime locations, clear documentation and guidance
+            throughout your property journey.
+          </p>
+        </div>
+
+        <div class="lt-why-grid">
+          <article class="lt-why-card">
+            <div class="lt-why-icon"><ion-icon name="home-outline"></ion-icon></div>
+            <h3>Premium Villa &amp; Plot Projects</h3>
+            <p>Carefully selected premium residential plots and luxury villas in fast-growing locations.</p>
+          </article>
+
+          <article class="lt-why-card">
+            <div class="lt-why-icon"><ion-icon name="location-outline"></ion-icon></div>
+            <h3>Prime Locations</h3>
+            <p>Properties selected with connectivity, infrastructure and future growth potential in mind.</p>
+          </article>
+
+          <article class="lt-why-card">
+            <div class="lt-why-icon"><ion-icon name="shield-checkmark-outline"></ion-icon></div>
+            <h3>Clear Legal Documentation</h3>
+            <p>Guidance to help you understand property documentation and move forward with greater clarity.</p>
+          </article>
+
+          <article class="lt-why-card">
+            <div class="lt-why-icon"><ion-icon name="people-outline"></ion-icon></div>
+            <h3>Trusted Real Estate Experts</h3>
+            <p>Personalised assistance to help you explore properties that suit your requirements and goals.</p>
+          </article>
+
+          <article class="lt-why-card">
+            <div class="lt-why-icon"><ion-icon name="trending-up-outline"></ion-icon></div>
+            <h3>Investment Value</h3>
+            <p>Consider location, connectivity and surrounding development when evaluating long-term potential.</p>
+          </article>
+
+          <article class="lt-why-card">
+            <div class="lt-why-icon"><ion-icon name="chatbubbles-outline"></ion-icon></div>
+            <h3>End-to-End Support</h3>
+            <p>Support from your first enquiry and site visit through documentation and registration assistance.</p>
+          </article>
+        </div>
+
+        <div class="lt-section-action">
+          <a href="why-choose.html" class="lt-btn lt-btn-gold">
+            Discover Why LT PROJECTS <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         SERVICES
+         ======================================================= -->
+
+    <section class="lt-services" id="service" aria-labelledby="lt-services-title">
+      <div class="lt-container">
+        <div class="lt-services-heading">
+          <div>
+            <p class="lt-eyebrow">Our Services</p>
+            <h2 class="lt-section-title" id="lt-services-title">
+              Services designed around <em>your property journey.</em>
+            </h2>
+          </div>
+          <p>
+            From exploring the right property to site visits, documentation and ongoing
+            assistance, LT PROJECTS helps make your real estate journey clearer and simpler.
+          </p>
+        </div>
+
+        <div class="lt-service-grid">
+          <article class="lt-service-card">
+            <ion-icon name="home-outline" aria-hidden="true"></ion-icon>
+            <h3>Luxury Villas</h3>
+            <p>Premium villas designed around modern living, spacious layouts and an elevated residential experience.</p>
+            <a href="service.html" aria-label="Learn more about Luxury Villas"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </article>
+
+          <article class="lt-service-card">
+            <ion-icon name="map-outline" aria-hidden="true"></ion-icon>
+            <h3>Residential Plots</h3>
+            <p>Well-planned residential plots in developing locations for your future home or investment plans.</p>
+            <a href="service.html" aria-label="Learn more about Residential Plots"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </article>
+
+          <article class="lt-service-card">
+            <ion-icon name="trending-up-outline" aria-hidden="true"></ion-icon>
+            <h3>Investment Advisory</h3>
+            <p>Guidance to help you evaluate property options, locations and factors that may influence long-term value.</p>
+            <a href="service.html" aria-label="Learn more about Investment Advisory"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </article>
+
+          <article class="lt-service-card">
+            <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+            <h3>Book a Site Visit</h3>
+            <p>Arrange a guided visit to explore projects in person and understand the location and surroundings.</p>
+            <a href="service.html" aria-label="Learn more about Site Visits"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </article>
+
+          <article class="lt-service-card">
+            <ion-icon name="document-text-outline" aria-hidden="true"></ion-icon>
+            <h3>Legal Documentation</h3>
+            <p>Support in understanding property documents and navigating the steps towards registration.</p>
+            <a href="service.html" aria-label="Learn more about Legal Documentation"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </article>
+
+          <article class="lt-service-card">
+            <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
+            <h3>Dedicated Support</h3>
+            <p>Helpful communication and assistance throughout your property discovery and buying journey.</p>
+            <a href="service.html" aria-label="Learn more about Dedicated Support"><ion-icon name="arrow-forward-outline"></ion-icon></a>
+          </article>
+        </div>
+
+        <div class="lt-section-action">
+          <a href="service.html" class="lt-btn lt-btn-gold">
+            Explore All Services <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- =======================================================
+         FEATURED PROJECTS
+         ======================================================= -->
+
+    <section
+      class="lt-projects"
+      id="property">
+
+
+      <div class="lt-container">
+
+
+        <div class="lt-project-heading">
+
+
+          <div class="lt-project-heading-copy">
+
+            <p class="lt-eyebrow">
+              Featured Projects
+            </p>
+
+
+            <h2 class="lt-section-title">
+
+              Discover our
+
+              <em>projects.</em>
+
+            </h2>
+
+
+            <p class="lt-section-copy">
+
+              Explore completed, ongoing and
+              upcoming LT PROJECTS developments
+              across Bengaluru and nearby
+              growth corridors.
+
+            </p>
+
+          </div>
+
+
+          <a
+            href="property.html"
+            class="lt-btn lt-btn-gold">
+
+            View All Projects
+
+            <ion-icon
+              name="arrow-forward-outline">
+            </ion-icon>
+
+          </a>
+
+
+        </div>
+
+
+        <div class="lt-project-grid">
+
+
+          <!-- Completed -->
+
+          <article class="lt-project-card">
+
+
+            <div class="lt-project-image">
+
+
+              <img
+                src="./assets/images/lineysha-utopia.jpg"
+                alt="Lineysha Utopia completed residential project"
+                loading="lazy">
+
+
+              <span class="lt-project-status">
+                Completed
+              </span>
+
+            </div>
+
+
+            <div class="lt-project-content">
+
+
+              <p class="lt-project-location">
+
+                <ion-icon
+                  name="location-outline">
+                </ion-icon>
+
+                Narasapura Industrial Area
+
+              </p>
+
+
+              <h3>
+                Lineysha Utopia - I
+              </h3>
+
+
+              <p class="lt-project-type">
+                Completed Residential Project
+              </p>
+
+
+              <p class="lt-project-description">
+
+                A completed residential development
+                by LT PROJECTS near the Narasapura
+                Industrial Area.
+
+              </p>
+
+
+              <a
+                class="lt-project-link"
+                href="property.html#completed-projects">
+
+                View Project
+
+                <ion-icon
+                  name="arrow-forward-outline">
+                </ion-icon>
+
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Ongoing -->
+
+          <article class="lt-project-card">
+
+
+            <div class="lt-project-image">
+
+
+              <img
+                src="./assets/images/Baleveeranahalli plots.webp"
+                alt="Residential plots at Baleveeranahalli"
+                loading="lazy">
+
+
+              <span class="lt-project-status">
+                Ongoing
+              </span>
+
+            </div>
+
+
+            <div class="lt-project-content">
+
+
+              <p class="lt-project-location">
+
+                <ion-icon
+                  name="location-outline">
+                </ion-icon>
+
+                Koratagere Taluk
+
+              </p>
+
+
+              <h3>
+                Baleveeranahalli
+              </h3>
+
+
+              <p class="lt-project-type">
+                Residential Plots
+              </p>
+
+
+              <p class="lt-project-description">
+
+                An ongoing LT PROJECTS residential
+                plot development at Baleveeranahalli
+                Village, Koratagere Taluk.
+
+              </p>
+
+
+              <a
+                class="lt-project-link"
+                href="property.html#ongoing-projects">
+
+                View Project
+
+                <ion-icon
+                  name="arrow-forward-outline">
+                </ion-icon>
+
+              </a>
+
+            </div>
+
+          </article>
+
+
+          <!-- Upcoming -->
+
+          <article class="lt-project-card">
+
+
+            <div class="lt-project-image">
+
+
+              <img
+                src="./assets/images/kondedanahalli villas.jpeg"
+                alt="Upcoming villas at Kondenahalli"
+                loading="lazy">
+
+
+              <span class="lt-project-status">
+                Upcoming
+              </span>
+
+            </div>
+
+
+            <div class="lt-project-content">
+
+
+              <p class="lt-project-location">
+
+                <ion-icon
+                  name="location-outline">
+                </ion-icon>
+
+                Devanahalli Taluk
+
+              </p>
+
+
+              <h3>
+                Kondenahalli
+              </h3>
+
+
+              <p class="lt-project-type">
+                Villas
+              </p>
+
+
+              <p class="lt-project-description">
+
+                Upcoming LT PROJECTS villa
+                development at Kondenahalli
+                Village, Devanahalli Taluk.
+
+              </p>
+
+
+              <a
+                class="lt-project-link"
+                href="property.html#upcoming-projects">
+
+                Register Interest
+
+                <ion-icon
+                  name="arrow-forward-outline">
+                </ion-icon>
+
+              </a>
+
+            </div>
+
+          </article>
+
+
+        </div>
+
+
+        <div class="lt-project-bottom">
+
+          <a
+            href="property.html"
+            class="lt-btn lt-btn-gold">
+
+            Explore All Projects
+
+            <ion-icon
+              name="arrow-forward-outline">
+            </ion-icon>
+
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         OFFICE
+         ======================================================= -->
+
+    <section
+      class="lt-office">
+
+
+      <div class="lt-container">
+
+
+        <div class="lt-office-heading">
+
+
+          <div>
+
+            <p class="lt-eyebrow">
+              Visit Our Office
+            </p>
+
+
+            <h2 class="lt-section-title">
+
+              Find
+
+              <em>LT PROJECTS.</em>
+
+            </h2>
+
+          </div>
+
+
+          <p>
+
+            Visit our office at Vasudhara Plaza,
+            Kudlu Main Road, Bengaluru. Our team
+            will be happy to assist you with your
+            property requirements.
+
+          </p>
+
+        </div>
+
+
+        <div class="lt-office-map">
+
+
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3519.589921148725!2d77.64530907454534!3d12.890129116660342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae150063199069%3A0xbec54887468ba986!2sLT%20Projects!5e1!3m2!1sen!2sin!4v1791104427897!5m2!1sen!2sin"
+            width="100%"
+            height="450"
+            loading="lazy"
+            allowfullscreen=""
+            referrerpolicy="strict-origin-when-cross-origin"
+            title="LT Projects Office Location">
+          </iframe>
+
+
+          <div class="lt-office-info">
+
+
+            <div class="lt-office-address">
+
+
+              <ion-icon
+                name="location-outline">
+              </ion-icon>
+
+
+              <div>
+
+                <strong>
+                  LT PROJECTS Office
+                </strong>
+
+
+                <p>
+
+                  
+                  No. 8 & 9, Vasudhara Plaza,4th Floor, Kudlu Main Road,Kudlu,
+                  
+                  Bengaluru, Karnataka – 560068
+
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=12.890122%2C77.647868"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="lt-btn lt-btn-gold">
+
+              Get Directions
+
+              <ion-icon
+                name="navigate-outline">
+              </ion-icon>
+
+            </a>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =======================================================
+         CONTACT
+         ======================================================= -->
+
+    <section
+      class="lt-contact"
+      id="contact">
+
+
+      <div class="lt-container">
+
+
+        <div class="lt-contact-grid">
+
+
+          <div>
+
+
+            <p class="lt-eyebrow">
+              Contact LT PROJECTS
+            </p>
+
+
+            <h2>
+
+              Book a site visit
+
+              <em>in Bengaluru.</em>
+
+            </h2>
+
+
+            <p class="lt-contact-intro">
+
+              Share your requirements and our
+              LT PROJECTS team will connect with
+              you regarding premium villas and
+              residential plots across Bengaluru
+              and surrounding areas.
+
+            </p>
+
+
+            <div class="lt-contact-address">
+
+
+              <ion-icon
+                name="location-outline">
+              </ion-icon>
+
+
+              <span>
+
+                LT PROJECTS<br>
+                No. 8 & 9, 
+             Vasudhara Plaza,4th Floor,
+                <br>
+
+                Kudlu Main Road,Kudlu,
+                Bengaluru, Karnataka – 560068
+
+              </span>
+
+
+            </div>
+
+          </div>
+
+
+          <form
+            class="lt-contact-form"
+            action="#"
+            method="post"
+            id="contact-form">
+
+
+            <div class="lt-form-group">
+
+              <label for="full-name">
+                Full Name
+              </label>
+
+              <input
+                id="full-name"
+                name="full-name"
+                type="text"
+                placeholder="Enter your full name"
+                required>
+
+            </div>
+
+
+            <div class="lt-form-group">
+
+              <label for="phone-number">
+                Phone Number
+              </label>
+
+              <input
+                id="phone-number"
+                name="phone-number"
+                type="tel"
+                placeholder="Enter your phone number"
+                required>
+
+            </div>
+
+
+            <div class="lt-form-group">
+
+              <label for="email-address">
+                Email Address
+              </label>
+
+              <input
+                id="email-address"
+                name="email-address"
+                type="email"
+                placeholder="Enter your email address"
+                required>
+
+            </div>
+
+
+            <div class="lt-form-group">
+
+              <label for="property-interest">
+                Interested In
+              </label>
+
+              <select
+                id="property-interest"
+                name="property-interest"
+                required>
+
+                <option
+                  value=""
+                  selected
+                  disabled>
+
+                  Select an option
+
+                </option>
+
+                <option>
+                  Premium Villa
+                </option>
+
+                <option>
+                  Residential Plot
+                </option>
+
+                <option>
+                  Both
+                </option>
+
+              </select>
+
+            </div>
+
+
+            <div class="lt-form-group full">
+
+              <label for="message">
+                Message
+              </label>
+
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Tell us your preferred location, budget, and timeline"
+                required>
+              </textarea>
+
+            </div>
+
+
+            <button
+              type="submit"
+              class="lt-btn lt-btn-gold lt-form-submit">
+
+              Send Enquiry
+
+              <ion-icon
+                name="arrow-forward-outline">
+              </ion-icon>
+
+            </button>
+
+
+            <p class="lt-form-consent">
+
+              By submitting this form, you agree
+              to our
+
+              <a href="privacy-policy.html">
+                Privacy Policy
+              </a>
+
+              and consent to LT PROJECTS
+              contacting you regarding your enquiry.
+
+            </p>
+
+
+          </form>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =========================================================
+       WHATSAPP
+       ========================================================= -->
+
+  <a
+    class="lt-whatsapp"
+    data-whatsapp-link
+    href="https://wa.me/918904191522"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Chat with LT PROJECTS on WhatsApp">
+
+    <ion-icon
+      name="logo-whatsapp">
+    </ion-icon>
+
+    <span>
+      WhatsApp Us
+    </span>
+
+  </a>
+
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+
+  <footer class="footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="index.html" aria-label="LT PROJECTS Home">
+        <img src="./assets/images/lt-projects-logo-clean.png" alt="LT PROJECTS logo">
+      </a>
+      <p>LT PROJECTS brings premium villas and residential plots to discerning buyers seeking quality, location advantage, and long-term value.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+        <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#" aria-label="YouTube"><ion-icon name="logo-youtube"></ion-icon></a>
+        <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+      </div>
+    </div>
+    <div class="footer-links">
+      <h3>Quick Links</h3>
+      <a href="index.html">Home</a>
+      <a href="about.html">About LT PROJECTS</a>
+      <a href="why-choose.html">Why Choose Us</a>
+      <a href="service.html">Our Services</a>
+      <a href="property.html">Featured Projects</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <div class="footer-contact">
+      <h3>Contact Information</h3>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon"><ion-icon name="location-outline"></ion-icon></span>
+        <div>
+          <strong>LT PROJECTS</strong>
+          <address>No. 8 &amp; 9, Vasudhara Plaza, 4th Floor,<br>Kudlu Main Road, Kudlu,<br>Bengaluru, Karnataka – 560068, India.</address>
+        </div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon"><ion-icon name="call-outline"></ion-icon></span>
+        <div><a href="tel:+918904191522">+91 89041 91522</a></div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon"><ion-icon name="mail-outline"></ion-icon></span>
+        <div><a href="mailto:crm@ltprojects.in">crm@ltprojects.in</a></div>
+      </div>
+      <div class="footer-contact-item">
+        <span class="footer-contact-icon"><ion-icon name="calendar-outline"></ion-icon></span>
+        <div><a href="contact.html">Book a Site Visit</a></div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© 2026 LT PROJECTS. All Rights Reserved.</span>
+      <span class="footer-divider">|</span>
+      <span>Developed by</span>
+      <a href="https://rushintech.in/" target="_blank" rel="noopener noreferrer" class="developer-link">RushIn Technologies</a>
+      <span class="footer-divider">|</span>
+      <a href="privacy-policy.html" class="footer-legal-link">Privacy Policy</a>
+      <a href="terms-and-conditions.html" class="footer-legal-link">Terms &amp; Conditions</a>
+      <a href="disclaimer.html" class="footer-legal-link">Disclaimer</a>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- =========================================================
+       SCRIPTS
+       ========================================================= -->
+
+  <script src="./assets/js/script.js"></script>
+
+
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js">
+  </script>
+
+
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js">
+  </script>
+
+
+</body>
+
+</html>
